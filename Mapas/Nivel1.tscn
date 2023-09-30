@@ -1,9 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://dy4yrpf7k0bio"]
+[gd_scene load_steps=3 format=3 uid="uid://dy4yrpf7k0bio"]
 
 [ext_resource type="TextMesh" uid="uid://d04fwdo2n6n0" path="res://PruebaGit.tres" id="1_abjll"]
+[ext_resource type="ArrayMesh" uid="uid://cvrlmuhcsn0tv" path="res://Assets_Benja_Pesenti/gato.obj" id="2_ij05g"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="PruebaGit" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.277239, 0.911104, -0.17513)
 mesh = ExtResource("1_abjll")
+
+[node name="Gato" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.685374, 0, -0.728192, 0, 1, 0, 0.728192, 0, 0.685374, -1.73259, 0, 0.0641394)
+mesh = ExtResource("2_ij05g")
