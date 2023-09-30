@@ -1,0 +1,12 @@
+[gd_resource type="TextMesh" load_steps=2 format=3 uid="uid://d04fwdo2n6n0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_stekn"]
+vertex_color_is_srgb = true
+albedo_color = Color(1, 0.627451, 0.294118, 1)
+
+[resource]
+material = SubResource("StandardMaterial3D_stekn")
+text = "Holi Dejen su nombre aqui si pudieron abrir el proyecto //
+-Matias Inayao :)"
+font_size = 26
+autowrap_mode = 1
