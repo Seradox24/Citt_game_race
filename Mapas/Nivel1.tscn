@@ -1,9 +1,9 @@
 [gd_scene load_steps=2 format=3 uid="uid://dy4yrpf7k0bio"]
 
-[ext_resource type="TextMesh" uid="uid://d04fwdo2n6n0" path="res://PruebaGit.tres" id="1_3gryb"]
+[ext_resource type="TextMesh" uid="uid://d04fwdo2n6n0" path="res://PruebaGit.tres" id="1_abjll"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="PruebaGit" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.277239, 0.911104, -0.17513)
-mesh = ExtResource("1_3gryb")
+mesh = ExtResource("1_abjll")
