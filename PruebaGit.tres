@@ -7,6 +7,7 @@ albedo_color = Color(1, 0.627451, 0.294118, 1)
 [resource]
 material = SubResource("StandardMaterial3D_stekn")
 text = "Holi Dejen su nombre aqui si pudieron abrir el proyecto //
--Matias Inayao :)"
+-Matias Inayao :)
+-Benja Pesenti"
 font_size = 26
 autowrap_mode = 1
